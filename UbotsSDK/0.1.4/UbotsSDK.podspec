@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/ubotsbr/sdk-ios'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ubots' => 'contato@ubots.com.br' }
-  s.source           = { :git => 'https://github.com/ubotsbr/sdk', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ubotsbr/sdk-ios.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
