@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UbotsSDK'
-  s.version          = '0.1.16'
+  s.version          = '1.0.13'
   s.summary          = 'SDK to connect with Ubots API'
   s.description      = 'Description'
   s.homepage         = 'https://github.com/ubotsbr/sdk-ios'
