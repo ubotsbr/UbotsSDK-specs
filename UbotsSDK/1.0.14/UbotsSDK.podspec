@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UbotsSDK'
-  s.version          = '0.1.4'
+  s.version          = '1.0.14'
   s.summary          = 'SDK to connect with Ubots API'
   s.description      = 'Description'
   s.homepage         = 'https://github.com/ubotsbr/sdk-ios'
@@ -23,6 +23,6 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'UIKit'
   
-  s.dependency 'XMPPFramework'
-  s.dependency 'Kingfisher'
+  s.dependency 'XMPPFramework', '4.0.0'
+  s.dependency 'Kingfisher', '4.8.0'
 end
