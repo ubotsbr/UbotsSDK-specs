@@ -19,10 +19,10 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'UbotsSDK/Classes/**/*'
-  s.resources = ["UbotsSDK/Assets/**/*"]
+  s.resources = 'UbotsSDK/Assets/**/*'
 
   s.frameworks = 'UIKit'
   
   s.dependency 'XMPPFramework', '4.0.0'
-  s.dependency 'Kingfisher', '4.8.0'
+  s.dependency 'Kingfisher', '4.10.0'
 end
