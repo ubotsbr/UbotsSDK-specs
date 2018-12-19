@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.resources = ["UbotsSDK/Assets/**/*"]
 
   s.frameworks = 'UIKit'
-  
+
   s.dependency 'XMPPFramework', '4.0.0'
   s.dependency 'Kingfisher', '4.8.0'
 end
