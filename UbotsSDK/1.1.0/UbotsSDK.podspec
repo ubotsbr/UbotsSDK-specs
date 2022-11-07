@@ -25,5 +25,10 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit'
 
   s.dependency 'XMPPFramework', '4.0.0'
+  s.dependency 'CocoaLumberjack', '3.6.1'
+  s.dependency 'CocoaAsyncSocket', '7.6.4'
+  s.dependency 'KissXML', '5.3.3'
+  s.dependency 'libidn', '1.35.1'
+
   s.dependency 'Kingfisher', '5.14.1'
 end
