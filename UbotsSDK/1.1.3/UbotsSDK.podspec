@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Sources/UbotsSDK/Classes/**/*'
+  s.source_files = 'Sources/UbotsSDK/Classes/**/*.swift'
   s.resources = 'Sources/UbotsSDK/**/*.{png, jpg,storyboard,xib,xcassets}'
 
   s.frameworks = 'UIKit'
