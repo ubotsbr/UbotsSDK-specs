@@ -21,6 +21,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Sources/UbotsSDK/Classes/**/*.swift'
   s.resources = 'Sources/UbotsSDK/**/*.{png, jpg,storyboard,xib,xcassets}'
+  s.resource_bundles = {
+    'UbotsSDK' => 'Sources/UbotsSDK/Assets/Images/*'
+  }
 
   s.frameworks = 'UIKit'
 
